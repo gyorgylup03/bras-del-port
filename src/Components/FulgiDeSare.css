@@ -155,7 +155,7 @@
   
   .product-card2 {
     background-color: black;
-    margin-top: 50px;
+    margin-top: 70px;
     color: white;
     width: 700px;
     border-radius: 10px;
@@ -250,6 +250,7 @@
   }
 
   .containernew {
+    margin-top: 20px;
    position: relative;
    display: flex;
    flex-direction: column;
@@ -257,7 +258,6 @@
    align-items: center;
   width: 100%;
   max-width: 400px;
-  margin: 0 auto;
 }
 
 .backgroundnew {
