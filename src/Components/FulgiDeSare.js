@@ -1,28 +1,4 @@
-import React from "react";
 import "./FulgiDeSare.css";
-
-const products = [
-  {
-    category: "naturală",
-    color: "#3DA2A4",
-    items: [
-      { image: "natural_5g.png", weight: "5 g", box: "192 buc/cutie" },
-      { image: "natural_250g.png", weight: "250 g", box: "12 buc/cutie" },
-      { image: "natural_125g.png", weight: "125 g", box: "6 buc/cutie" },
-    ],
-  },
-  {
-    category: "cu citrice",
-    color: "#E4B40E",
-    items: [{ image: "citrus_125g.png", weight: "125 g", box: "6 buc/cutie" }],
-  },
-  {
-    category: "carbon vegetal și piper",
-    color: "#777777",
-    items: [{ image: "carbon_125g.png", weight: "125 g", box: "6 buc/cutie" }],
-  },
-];
-
 
 const SaltFlakes = () => {
   return (
@@ -89,7 +65,7 @@ const SaltFlakes = () => {
 </section>
 
       <header>
-        <img class="bg"src="bg2.jpg"/>
+        <img class="bg"src="bg2.jpg" alt="bg"/>
       </header>
       <section className="product-gallery">
       <div className="product-card">
@@ -145,7 +121,7 @@ const SaltFlakes = () => {
       </div>
     </div>
           <header>
-        <img class="bg"src="bgfsm.jpg"/>
+        <img class="bg"src="bgfsm.jpg" alt="bg"/>
       </header>
       <section className="product-gallery">
       <div className="product-card">

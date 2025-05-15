@@ -1,34 +1,11 @@
-import React from "react";
 import "./SpumaDeSare.css";
-
-const products = [
-    {
-        category: "naturală",
-        color: "#3DA2A4",
-        items: [
-            { image: "natural_5g.png", weight: "5 g", box: "192 buc/cutie" },
-            { image: "natural_250g.png", weight: "250 g", box: "12 buc/cutie" },
-            { image: "natural_125g.png", weight: "125 g", box: "6 buc/cutie" },
-        ],
-    },
-    {
-        category: "cu citrice",
-        color: "#E4B40E",
-        items: [{ image: "citrus_125g.png", weight: "125 g", box: "6 buc/cutie" }],
-    },
-    {
-        category: "carbon vegetal și piper",
-        color: "#777777",
-        items: [{ image: "carbon_125g.png", weight: "125 g", box: "6 buc/cutie" }],
-    },
-];
 
 
 const SpumaDeSare = () => {
     return (
         <div className="container">
             <header>
-                <img class="bg" src="spumabg.png" />
+                <img class="bg"  alt="bg" src="spumabg.png" />
             </header>
             <section className="product-gallery">
                 <div className="product-card">
@@ -92,10 +69,10 @@ const SpumaDeSare = () => {
 
             <header>
                 <div class="head-cont">
-                    <img class="bg my-bg" src="spbg1.jpeg" />
+                    <img class="bg my-bg" src="spbg1.jpeg" alt="imagine" />
                     <div className="head-cont2">
-                        <img class="bg my-bg2" src="spbg2.jpeg" />
-                        <img class="bg my-bg2" src="spbg3.jpeg" />
+                        <img class="bg my-bg2" src="spbg2.jpeg" alt="imagine"/>
+                        <img class="bg my-bg2" src="spbg3.jpeg" alt="imagine" />
                     </div>
                 </div>
             </header>

@@ -1,4 +1,3 @@
-import React from "react";
 import "./Home.css";
 
 export default function Home() {
@@ -7,7 +6,7 @@ export default function Home() {
       
     {/* Titok a tengerről */}
     <section className="products">
-      <img src="logo.png"/>
+      <img src="logo.png" alt="logo"/>
       <div className="text-cont">
       <h2>SECRETUL MĂRII</h2>
       <h3>De mai bine de un secol, vântul și soarele au fost și continuă să fie cei mai mari aliați ai noștri în obținerea unui tip de sare marină complet natural.</h3>
