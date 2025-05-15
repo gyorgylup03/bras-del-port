@@ -27,6 +27,7 @@
   .product-gallery {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     flex-wrap: wrap;
     padding-top: 50px;
     margin-bottom: 50px;
@@ -36,7 +37,6 @@
     background-color: black;
     color: white;
     width: 380px;
-    padding: 20px;
     border-radius: 10px;
     text-align: center;
   }
@@ -155,7 +155,7 @@
   
   .product-card2 {
     background-color: black;
-    margin-top: 13vh;
+    margin-top: 50px;
     color: white;
     width: 700px;
     border-radius: 10px;
@@ -248,3 +248,38 @@
     padding-top: 0px;
     margin-bottom: 0px ;
   }
+
+  .containernew {
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.backgroundnew {
+    width: 200%;
+  height: auto;
+  display: block;
+}
+
+.overlaynew {
+    position: absolute;
+  top: -10px; /* kilógjon fentről, dinamikusan */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.circle-image-new {
+  width: 90%;              /* arányos méret: 25% a viewport szélességéből */
+  max-width: 250px;         /* max méret, hogy ne nőjön túl nagyra */
+  height: auto;
+  aspect-ratio: 1 / 1;      /* kör forma fenntartása */
+  border-radius: 50%;
+  border: 2px solid white;
+  object-fit: cover;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}

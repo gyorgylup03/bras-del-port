@@ -60,6 +60,7 @@
   
   .product-image2 {
     width: 50%;
+ 
   }
   
   .product-type2 {
@@ -123,6 +124,20 @@
   
     .product-card3 {
       width: 100%;
+    }
+
+    .product-image2 {
+         max-height: 250px;
+    }
+  }
+
+  @media (max-width: 800px)
+  {
+    .footer2 {
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     }
   }
 

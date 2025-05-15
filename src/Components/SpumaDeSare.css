@@ -41,3 +41,13 @@
         height: 29vw;
     }   
   }
+
+    @media (max-width: 800px)
+  {
+    .footer1 {
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    }
+  }

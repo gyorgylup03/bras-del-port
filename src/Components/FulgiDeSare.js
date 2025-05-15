@@ -38,7 +38,14 @@ const SaltFlakes = () => {
     </div>
     <div className="product-card">
       <div className="product-image-container">
-        <img src="citrice2.png" alt="Natural Large" className="large-image" />
+              <div className="product-image-container">
+        <div class="containernew">
+  <img src="citrice2new.png" alt="Háttérkép" class="backgroundnew"/>
+  <div class="overlaynew">
+    <img src="citricecircle.jpeg" alt="Kerek kép" class="circle-image-new"/>
+  </div>
+</div>
+      </div>
       </div>
       <div className="product-info">
         <div className="info-row">
@@ -51,7 +58,12 @@ const SaltFlakes = () => {
     </div>
     <div className="product-card">
       <div className="product-image-container">
-        <img src="carbon2.png" alt="Natural Large" className="large-image" />
+        <div class="containernew">
+  <img src="carbon2new.png" alt="Háttérkép" class="backgroundnew"/>
+  <div class="overlaynew">
+    <img src="carboncircle.jpeg" alt="Kerek kép" class="circle-image-new"/>
+  </div>
+</div>
       </div>
       <div className="product-info">
         <div className="info-row">
