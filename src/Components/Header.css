@@ -1,0 +1,65 @@
+/* Header.css */
+.header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10vh;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    z-index: 50;
+  }
+  
+  .menu-icon {
+    cursor: pointer;
+    color: gray;
+    transition: color 0.3s;
+    cursor: pointer;
+    display: flex
+;
+    font-size: 1.7rem;
+    align-items: center;
+    color: gray;
+    transition: color 0.3s;
+  }
+  
+  .menu-icon:hover {
+    color: black;
+  }
+  
+  /* Dropdown menu styling */
+  .dropdown-menu {
+    position: absolute;
+    top: 7.5vh;
+    left: 24px;
+    z-index: 10001;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .nav-item {
+    text-decoration: none;
+    color: gray;
+    padding: 8px 12px;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .nav-item:hover {
+    background: lightgray;
+    color: black;
+  }
+  
+  /* Right-side image */
+  .header-image img {
+    height: 8vh;
+    object-fit: cover;
+  }
+  

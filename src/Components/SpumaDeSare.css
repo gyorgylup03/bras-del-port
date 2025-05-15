@@ -1,0 +1,43 @@
+.head-cont{
+    display: flex;
+}
+
+.head-cont2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    width: 25%;
+}
+
+@media (max-width: 1679px) {
+    .card-container{
+        width: 33%;
+    }
+  }
+  
+  @media (max-width: 1260px) {
+    .card-container{
+        width: 50%;
+    }
+  }
+  
+  @media (max-width: 840px) {
+    .card-container{
+        width: 100%;
+    }
+  }
+
+  @media (max-width: 900px)
+  {
+    .my-bg{
+        height: 58vw;
+    }
+    .my-bg2 {
+        height: 29vw;
+    }   
+  }
